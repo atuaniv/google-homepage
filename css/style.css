@@ -1,0 +1,81 @@
+#center{
+  position: relative;
+  background: white;
+  height: 30em;
+  width:  30em;
+  margin: 0 auto;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+}
+
+#logo{
+
+margin: -7em 0 0 -12em;
+position: absolute;
+top: 50%;
+left: 50%;
+padding: 10px;
+
+}
+#country{
+  margin: -5em 0 0 2em;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  white-space: nowrap;
+
+}
+#input{
+  position: absolute;
+  border: 1px ridge;
+  border-color: #4285f4;
+  top: 54%;
+  height: auto;
+  width:  25em;
+  margin: 0;
+
+}
+
+#input input{
+  position: relative;
+  width: 70%;
+  height: 90%;
+  font-size: 1.5em;
+  border: none;
+}
+
+#input input:focus{
+  outline: none;
+}
+
+#input img{
+  position: relative;
+  height:auto;
+  float: right;
+  margin: 0;
+}
+#center input inside{
+width: 80%;
+
+}
+#microfono{
+      background-size: 24px 24px;
+      height: 23px;
+      width: 17px;
+      vertical-align: middle;
+      display: inline;
+}
+form{
+      width: 20em;
+      display: inline;
+}
+#inside{
+      width: 20em;
+      display: inline;
+}
+#microfono{
+      display: inline;
+}
